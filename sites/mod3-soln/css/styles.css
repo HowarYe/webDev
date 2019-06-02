@@ -1,0 +1,99 @@
+*{
+	font-family: Georgia, Times, serif;
+}
+
+#header-nav {
+    background-color: grey;
+    border-radius: 0;
+    border: 1px;
+    border-style: solid;
+}
+
+h1 {
+	color: black;
+}
+
+.container {
+  margin-bottom: 5px;
+}
+
+.navbar-brand h1 { /* name */
+  font-family: 'Lora', serif;
+  text-shadow: 1px 1px 1px #222;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-brand a:hover, .havbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: black;
+  text-align: center;
+}
+
+#collapsable-nav {
+  font-size: 1.5em;
+}
+
+#nav-list a {
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+}
+
+#nav-list #nav-top {
+  border-top: 2px;
+  border-style: solid;
+}
+#nav-list #nav-bot {
+  border-bottom: 2px;
+  border-style: solid;
+}
+
+#nav-list a:hover {
+  background: #111111;
+  color: white;
+}
+
+.navbar-header button.navbar-toggle {
+	clear:both;
+	margin-top: -35px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  div.navbar-brand {
+  	margin-left: 15px;
+  }
+  /* End Header */
+
+}
